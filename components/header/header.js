@@ -342,7 +342,7 @@ template.innerHTML =
            </div>
          </div>
          <div class="app-logo">
-           <a class="app-logo__link" href="./app.html">
+           <a class="app-logo__link" href="./index.html">
               <img src="./pictures/logo.png" alt="appLogo" class="app-logo__img">
            </a>
          </div>
