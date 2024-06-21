@@ -1,0 +1,346 @@
+@import url(reset.css);
+@import url(font.css);
+@import url(grid.css);
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-text-color: #242424;
+  --primary-color: #2ed5ea;
+  --secondary-color: #23c6da;
+  --teritiary-color: #ff6f00;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "vazir", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--main-text-color);
+}
+
+/* 
+
+reset css
+
+*/
+
+button,
+input {
+  outline: none;
+  border: none;
+  font: inherit;
+}
+button {
+  background-color: inherit;
+  cursor: pointer;
+}
+
+input {
+  display: inline-block;
+}
+
+a {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+/* 
+
+components
+
+*/
+
+/* ====== Section ========*/
+.section {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+/* ====== Section Head ========*/
+.section-head {
+  margin-bottom: 3rem;
+}
+.section-head__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-head__title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #707070;
+  padding: 1rem 4rem;
+  border-bottom-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  position: relative;
+  z-index: 1;
+}
+.section-head__link {
+  color: #666;
+}
+.section-head__line {
+  border-bottom: 1px solid #b8b8b8;
+  margin-right: 2rem;
+  margin-top: -1px;
+}
+
+/* ====== book Metadata is a template for book authors , brands and publishers ========*/
+.book-metaDatas {
+  overflow: hidden;
+}
+.book-metaDatas__wrapper {
+  display: flex;
+}
+
+/* ====== Swiper Btn ====== */
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  transition: all 0.2s ease-in-out;
+  z-index: 100;
+}
+.swiper-button-prev {
+  right: 0rem;
+}
+.swiper-button-next {
+  left: 0rem;
+}
+.swiper-button__icon {
+  width: 3rem;
+  height: 3rem;
+  stroke: #999999af;
+}
+
+/* 
+
+Helper class
+
+*/
+
+/* 
+
+app styles
+
+*/
+
+/* 
+
+Main
+
+*/
+
+/* 
+
+Banner Sliders
+
+*/
+
+.banner-sliders {
+  margin-top: 4rem;
+}
+.banner-slider {
+  width: 100%;
+  display: flex !important;
+}
+.banner-slider__link {
+  display: flex;
+}
+.banner-slider__img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+}
+.banner-slider-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.banner-slider__btn {
+  visibility: hidden;
+}
+.banner-slider:hover .banner-slider__btn {
+  visibility: visible;
+}
+.banner-slider__icon {
+  width: 2rem;
+  height: 2rem;
+  stroke: #999999af;
+}
+
+/* 
+
+Sale section
+
+*/
+
+.sale,
+.authors,
+.brands {
+  background-color: #eee;
+}
+.section-head__title--sale {
+  background-color: #ed1919;
+  color: #000;
+}
+
+/* 
+
+Banners Section
+
+*/
+
+.banners-section {
+  margin-top: 1rem;
+}
+
+.banners {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  overflow: hidden;
+}
+.banner {
+  width: 25%;
+}
+.banner__link {
+  display: flex;
+}
+.banner__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+/* 
+
+swiper Btns
+
+*/
+
+.swiper-button-prev--sale,
+.swiper-button-prev--best-sellers,
+.swiper-button-prev--new-products,
+.swiper-button-prev--panels,
+.swiper-button-prev--author,
+.swiper-button-prev--brands {
+  right: -1rem;
+}
+
+.swiper-button-next--sale,
+.swiper-button-next--best-sellers,
+.swiper-button-next--new-products,
+.swiper-button-next--panels,
+.swiper-button-next--author,
+.swiper-button-next--brands {
+  left: -1rem;
+}
+
+/* 
+
+Responsive Css
+
+*/
+
+.container {
+  max-width: 1400px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1200px) {
+  .banner-sliders {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  .banner {
+    flex-shrink: 0;
+    width: calc((33% - 0.75rem));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .banners {
+    flex-wrap: wrap;
+  }
+  .banner {
+    width: calc((50% - 0.75rem));
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .section-head__title {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+  }
+  .section-head__link {
+    font-size: 1.2rem;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    visibility: hidden;
+  }
+  .banner {
+    width: 100%;
+  }
+}

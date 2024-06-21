@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./pictures/favicon.png">
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <script src="./js/swiper.js" defer></script>
+    <script src="./js/app.js" type="module" defer></script>
+    <title>30Book</title>
+</head> 
+<body>
+   <site-header></site-header>
+   <main>
+    <section class="banner-sliders">
+      <div class="container">
+        <div class="row">
+          <div class="col-8 col-xs-12">
+            <div class="banner-slider-right">
+              <div class="swiper banner-slider">
+                <ul class="swiper-wrapper banner-slider__items">
+                  <li class="swiper-slide banner-slider__item">
+                    <a class="banner-slider__link" href="#">
+                      <img class="banner-slider__img" src="./pictures/slider11.jpg" alt="">
+                    </a>
+                  </li>
+                  <li class="swiper-slide banner-slider__item">
+                    <a class="banner-slider__link" href="#">
+                      <img class="banner-slider__img" src="./pictures/slider12.gif" alt="">
+                    </a>
+                  </li>
+                </ul>
+                <button class="banner-slider__btn swiper-button-prev">
+                  <svg class="banner-slider__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                  </svg>              
+                </button>
+                <button class="banner-slider__btn swiper-button-next">
+                  <svg class="banner-slider__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                  </svg>                            
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 col-xs-12">
+           <div class="banner-slider-left">
+            <div class="swiper banner-slider">
+              <ul class="swiper-wrapper banner-slider__items">
+                <li class="swiper-slide banner-slider__item">
+                  <a class="banner-slider__link" href="#">
+                    <img class="banner-slider__img" src="./pictures/slider21.gif" alt="">
+                  </a>
+                </li>
+                <li class="swiper-slide banner-slider__item">
+                  <a class="banner-slider__link" href="#">
+                    <img class="banner-slider__img" src="./pictures/slider22.gif" alt="">
+                  </a>
+                </li>
+              </ul>
+              <button class="banner-slider__btn swiper-button-prev">
+                <svg class="banner-slider__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>              
+              </button>
+              <button class="banner-slider__btn swiper-button-next">
+                <svg class="banner-slider__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                </svg>                            
+              </button>
+            </div>
+            <div class="swiper banner-slider">
+              <ul class="swiper-wrapper banner-slider__items">
+                <li class="swiper-slide banner-slider__item">
+                  <a class="banner-slider__link" href="#">
+                    <img class="banner-slider__img" src="./pictures/slider31.gif" alt="">
+                  </a>
+                </li>
+                <li class="swiper-slide banner-slider__item">
+                  <a class="banner-slider__link" href="#">
+                    <img class="banner-slider__img" src="./pictures/slider32.gif" alt="">
+                  </a>
+                </li>
+              </ul>
+              <button class="banner-slider__btn swiper-button-prev">
+                <svg class="banner-slider__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>              
+              </button>
+              <button class="banner-slider__btn swiper-button-next">
+                <svg class="banner-slider__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                </svg>                            
+              </button>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section sale">
+      <div class="container">
+        <div class="section-container">
+          <div class="section-head">
+            <div class="section-head__wrapper">
+              <h3 class="section-head__title section-head__title--sale">
+                <a href="#">
+                  تخفیف های شگفت انگیز
+                </a>
+              </h3>
+              <a href="#" class="section-head__link">مشاهده همه</a>
+            </div>
+            <div class="section-head__line"></div>
+          </div> 
+          <div class="section-body">
+            <div class="products--sale swiper">
+              <div class="products__wrapper swiper-wrapper">
+                <product-box class="product__box swiper-slide" title="عشق در گذر زمستانی (جیبی)(لوکس)" price="108500" cover="./pictures/book-1.jpg" discount="30" category="generalBook" id="1">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="رشد بدن دختران در دوره بلوغ " price="15000" cover="./pictures/book-2.jpg" discount="30" category="generalBook" id="2">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="اتو دوست مهربانی (خشتی)(نشر فرهنگ اسلامی)" price="312000" cover="./pictures/book-3.jpg" discount="35" category="generalBook"  id="3">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="دیوان حافظ همراه با فال (وزیری)(قابدار)(چرم لیزری)" price="656000" cover="./pictures/book-4.jpg" discount="30" category="generalBook" id="4">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="زیر سر کوه " price="312000" cover="./pictures/book-5.jpg" discount="40" category="generalBook" id="5">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="جامپینگ شبیه ساز آزمون ورودی تیزهوشان ششم " price="435000" cover="./pictures/textbook-6.jpg" discount="15" category="textBook" id="56">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="مشاوره نوجوانان " price="312000" cover="./pictures/book-7.jpg" discount="30" category="generalBook" id="7">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="از هم ریخته " price="312000" cover="./pictures/book-8.jpg" discount="35" category="generalBook" id="8">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="جنایت و مکافات " price="325000" cover="./pictures/book-9.jpg" discount="38" category="generalBook" id="9">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="تفکراتی درباره زندگی " price="108500" cover="./pictures/book-10.jpg" discount="40" category="generalBook"  id="10">
+                </product-box>
+              </div>
+              <button class="swiper-button-prev swiper-button-prev--sale">
+                <svg class="swiper-button__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>              
+              </button>
+              <button class="swiper-button-next swiper-button-next--sale">
+                <svg class="swiper-button__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                </svg>                            
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section best-sellers">
+      <div class="container">
+        <div class="section-container">
+          <div class="section-head">
+            <div class="section-head__wrapper">
+              <h3 class="section-head__title">
+                <a href="#">
+                  پرفروش ها
+                </a>
+              </h3>
+              <a href="#" class="section-head__link">مشاهده همه</a>
+            </div>
+            <div class="section-head__line"></div>
+          </div>
+          <div class="section-body">
+            <div class="products--best-sellers swiper">
+              <div class="products__wrapper swiper-wrapper">
+                <product-box class="product__box swiper-slide" title="شبهای روشن (جیبی)" price="70000" cover="./pictures/product-11.jpg" discount="10" category="generalBook"  id="11">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="به امید دل بستم " price="225000" cover="./pictures/product-12.jpg" discount="10" category="generalBook"  id="12">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="سفر به انتهای شب (شومیز)" price="420000" cover="./pictures/product-13.jpg" discount="15" category="generalBook" id="13">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="نیک سرشت " price="249000" cover="./pictures/product-14.jpg" discount="10" category="generalBook"  id="14">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="بخش دی " price="239000" cover="./pictures/product-15.jpg" discount="10" category="generalBook"  id="15">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="وقتی نیچه گریست (گالینگور)" price="325000" cover="./pictures/product-16.jpg" discount="10" category="generalBook"  id="16" >
+                </product-box>
+                <product-box class="product__box swiper-slide" title="می خواهم بمیرم ولی هوس دوکبوکی کرده ام " price="129000" cover="./pictures/product-17.jpg" discount="10" category="generalBook"  id="17">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="خصم " price="170000" cover="./pictures/product-18.jpg" discount="15" category="generalBook"  id="18">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="مرشد و مارگاریتا (پالتویی)(گالینگور)" price="555000" cover="./pictures/product-19.jpg" discount="18" category="generalBook"  id="19">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="سمفونی مردگان " price="240000" cover="./pictures/product-20.jpg" discount="10" category="generalBook"  id="20">
+                </product-box>
+              </div>
+              <button class="swiper-button-prev swiper-button-prev--best-sellers">
+                <svg class="swiper-button__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>              
+              </button>
+              <button class="swiper-button-next swiper-button-next--best-sellers">
+                <svg class="swiper-button__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                </svg>                            
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="banners-section">
+      <div class="container">
+        <div class="banners-section__container">
+         <div class="banners">
+          <div class="banner">
+            <a href="#" class="banner__link">
+              <img class="banner__img" src="./pictures/banner-1.jpg" alt="">
+            </a>
+          </div>
+          <div class="banner">
+            <a href="#" class="banner__link">
+              <img class="banner__img" src="./pictures/banner-2.jpg" alt="">
+            </a>
+          </div>
+          <div class="banner">
+            <a href="#" class="banner__link">
+              <img class="banner__img" src="./pictures/banner-3.jpg" alt="">
+            </a>
+          </div>
+          <div class="banner">
+            <a href="#" class="banner__link">
+              <img class="banner__img" src="./pictures/banner-4.jpg" alt="">
+            </a>
+          </div>
+         </div>
+        </div>
+      </div>
+    </section>
+    <section class="section authors">
+      <div class="container">
+        <div class="section-container">
+          <div class="section-head">
+            <div class="section-head__wrapper">
+              <h3 class="section-head__title">
+                <a href="#">
+                  نویسنده و مترجم
+                </a>
+              </h3>
+              <a href="#" class="section-head__link">مشاهده همه</a>
+            </div>
+            <div class="section-head__line"></div>
+          </div>
+          <div class="section-body">
+           <div class="book-metadatas--author swiper">
+            <div class="book-metadatas__wrapper swiper-wrapper">
+              <metadata-box class="book-metadata-box swiper-slide" name=" شهرام رجب زاده " cover="./pictures/author-1.png">
+              </metadata-box>
+              <metadata-box class="book-metadata-box swiper-slide" name=" مصطفی خرامان " cover="./pictures/author-2.png">
+              </metadata-box>
+              <metadata-box class="book-metadata-box swiper-slide" name=" انید بلایتون " cover="./pictures/author-3.png">
+              </metadata-box>
+              <metadata-box class="book-metadata-box swiper-slide" name=" کریستیان بوبن " cover="./pictures/author-4.png">
+              </metadata-box>
+              <metadata-box class="book-metadata-box swiper-slide" name=" ژوزف مورفی " cover="./pictures/author-5.png">
+              </metadata-box>
+              <metadata-box class="book-metadata-box swiper-slide" name=" آگوتا کریستوف " cover="./pictures/author-6.png">
+              </metadata-box>
+              <metadata-box class="book-metadata-box swiper-slide" name=" شاهرخ مسکوب " cover="./pictures/author-7.jpg">
+              </metadata-box>
+              <metadata-box class="book-metadata-box swiper-slide" name=" سیروس جمالی " cover="./pictures/author-8.png">
+              </metadata-box>
+            </div>
+            <button class="swiper-button-prev swiper-button-prev--author">
+              <svg class="swiper-button__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+              </svg>              
+            </button>
+            <button class="swiper-button-next swiper-button-next--author">
+              <svg class="swiper-button__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+              </svg>                            
+            </button>
+           </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section new-products">
+      <div class="container">
+        <div class="section-container">
+          <div class="section-head">
+            <div class="section-head__wrapper">
+              <h3 class="section-head__title">
+                <a href="#">
+                  تازه ها
+                </a>
+              </h3>
+              <a href="#" class="section-head__link">مشاهده همه</a>
+            </div>
+            <div class="section-head__line"></div>
+          </div>
+          <div class="section-body">
+            <div class="products--new swiper"> 
+              <div class="products__wrapper swiper-wrapper">
+                <product-box class="product__box swiper-slide" title="بانک نهایی فارسی 2 یازدهم (4584) " price="220000" cover="./pictures/textbook-16.jpg" discount="20" category="textBook" id="66">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="ریاضی اول دبستان کار (258)" price="99000" cover="./pictures/textbook-11.jpg" discount="10" category="textBook" id="61">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="The journey (پاندای بزرگ و اژدهای کوچک) " price="152000" cover="./pictures/foreign-book-4.jpg" discount="20" category="foreignBook" id="70">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="The Hobbit ارباب حلقه ها " price="85000" cover="./pictures/foreign-book-8.jpg" discount="10" category="foreignBook" id="74">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="درخت باش (رحلی)(پرتقال) " price="69000" cover="./pictures/children-book-3.jpg" discount="20" category="childrenBook" id="85">
+                </product-box>
+                <product-box class="product__box swiper-slide" title=" هر کودک یک آهنگ است (خشتی)(پرتقال) " price="59000" cover="./pictures/children-book-9.jpg" discount="20" category="childrenBook" id="91">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="پاستیل های بنفش (گالینگور)(پرتقال) " price="240000" cover="../pictures/children-book-16.jpg" discount="10" category="childrenBook" id="98">
+                </product-box>
+                <product-box class="product__box swiper-slide" title="فصلنامه تاریخی ثانیه (18)(تابستان 1402)" price="120000" cover="./pictures/cultural-good-14.jpg" discount="10" category="culturalGoods" id="112">
+                </product-box>
+              </div>
+              <button class="swiper-button-prev swiper-button-prev--new-products">
+                <svg class="swiper-button__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>              
+              </button>
+              <button class="swiper-button-next swiper-button-next--new-products">
+                <svg class="swiper-button__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                </svg>                            
+              </button>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section brands">
+      <div class="container">
+       <div class="section-container">
+        <div class="section-head">
+          <div class="section-head__wrapper">
+            <h3 class="section-head__title">
+              <a href="#">
+                برندها
+              </a>
+            </h3>
+            <a href="#" class="section-head__link">مشاهده همه</a>
+          </div>
+          <div class="section-head__line"></div>
+        </div>
+        <div class="section-body">
+          <div class="book-metadatas--brands swiper">
+            <div class="book-metadatas__wrapper swiper-wrapper">
+              <metadata-box class="book-metadata-box swiper-slide" name=" نشر پرتقال " cover="./pictures/brand-1.jpg"></metadata-box>
+              <metadata-box class="book-metadata-box swiper-slide" name=" نشر چشمه " cover="./pictures/brand-2.jpg"></metadata-box>
+              <metadata-box class="book-metadata-box swiper-slide" name=" نشر افق " cover="./pictures/brand-3.jpg"></metadata-box>
+              <metadata-box class="book-metadata-box swiper-slide" name=" نشر نی " cover="./pictures/brand-4.jpg"></metadata-box>
+              <metadata-box class="book-metadata-box swiper-slide" name=" نشر میلکان " cover="./pictures/brand-5.jpg"></metadata-box>
+              <metadata-box class="book-metadata-box swiper-slide" name=" نشر مرکز " cover="./pictures/brand-6.jpg"></metadata-box>
+              <metadata-box class="book-metadata-box swiper-slide" name=" نشر نگاه " cover="./pictures/brand-7.jpg"></metadata-box>
+              <metadata-box class="book-metadata-box swiper-slide" name=" نشر کوله پشتی " cover="./pictures/brand-8.jpg"></metadata-box>
+            </div>
+            <button class="swiper-button-prev swiper-button-prev--brands">
+              <svg class="swiper-button__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+              </svg>              
+            </button>
+            <button class="swiper-button-next swiper-button-next--brands">
+              <svg class="swiper-button__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+              </svg>                            
+            </button>
+          </div>
+        </div>
+       </div>
+      </div>
+    </section>
+    <section class="section panels">
+      <div class="container">
+        <div class="section-container">
+          <div class="section-head">
+            <div class="section-head__wrapper">
+              <h3 class="section-head__title">
+                <a href="#">
+                  تابلو ها
+                </a>
+              </h3>
+              <a href="#" class="section-head__link">مشاهده همه</a>
+            </div>
+            <div class="section-head__line"></div>
+          </div>
+          <div class="section-body"> 
+            <div class="products--panels swiper">
+              <div class="products__wrapper swiper-wrapper">
+                <product-box class="product-box swiper-slide" title="تابلو ابر و ماه 30*20 سانتی متر " price="110000" cover="./pictures/cultural-good-9.jpg" category="culturalGoods" id="107">
+                </product-box>
+                <product-box class="product-box swiper-slide" title="تابلو غروب 30*20 سانتی متر " price="110000" cover="./pictures/cultural-good-10.jpg" category="culturalGoods" id="108">
+                </product-box>
+                <product-box class="product-box swiper-slide" title="تابلو نقاشی موج 20*15 سانتی متر " price="75000" cover="./pictures/cultural-good-11.jpg" category="culturalGoods" id="109">
+                </product-box>
+                <product-box class="product-box swiper-slide" title="تابلو اغما 20*15 سانتی متر " price="75000" cover="./pictures/cultural-good-8.jpg" category="culturalGoods" id="106">
+                </product-box>
+                <product-box class="product-box swiper-slide" title="تابلو تک درخت 30*20 سانتی متر " price="110000" cover="./pictures/cultural-good-13.jpg" category="culturalGoods" id="111">
+                </product-box>
+                <product-box class="product-box swiper-slide" title="تابلو کشتی  13*18 سانتی متر " price="55000" cover="./pictures/cultural-good-15.jpg" category="culturalGoods" id="113">
+                </product-box>
+                <product-box class="product-box swiper-slide" title="تابلو زندگی ساده نیست 13*18 سانتی متر " price="55000" cover="./pictures/cultural-good-16.jpg" category="culturalGoods" id="114">
+                </product-box>
+              </div>
+              <button class="swiper-button-prev swiper-button-prev--panels">
+                <svg class="swiper-button__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                </svg>              
+              </button>
+              <button class="swiper-button-next swiper-button-next--panels">
+                <svg class="swiper-button__icon" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                </svg>                            
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   </main>
+   <site-footer></site-footer>
+</body>
+</html>
