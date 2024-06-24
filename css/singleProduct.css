@@ -213,7 +213,7 @@ product Image Box
 product Name Box
 
 */
-.product__title {
+.product-title {
   font-size: 2rem;
   font-weight: bold;
   text-align: right;
@@ -577,6 +577,10 @@ Suggestion Products
   height: 3rem;
   stroke: #999999af;
 }
+.product__discount{
+  top: 5px;
+  left: 10px;
+}
 
 /* 
 
@@ -619,7 +623,7 @@ Responsive Css
     padding: 0;
     margin-top: 3rem;
   }
-  .product__title {
+  .product-title {
     font-size: 1.6rem;
   }
   .product-author {
@@ -666,7 +670,7 @@ Responsive Css
   .product__name-box {
     padding-right: 1.5rem;
   }
-  .product__title {
+  .product-title {
     margin-bottom: 0.5rem;
   }
   .product__price-box {

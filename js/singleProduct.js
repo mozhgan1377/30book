@@ -41,7 +41,7 @@ function displayProduct(product) {
   let productDiscountElem = document.querySelector(".product__discount");
   let productDeletePriceElem = document.querySelector(".product-deleted-price");
   let productFinalPriceElem = document.querySelector(".product-final-price");
-  let productTitleElems = document.querySelectorAll(".product__title");
+  let productTitleElems = document.querySelectorAll(".product-title");
   let productPublisherElem = document.querySelector(".product__publisher");
   let productAutorSection = document.querySelector(
     ".product-author__wrapper--author"
