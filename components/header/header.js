@@ -995,32 +995,32 @@ template.innerHTML =
                  </a>
                </li>
                <li class="main-menu-item main-menu-item--active">
-                 <a href="../search.html?category=stationery" class="main-menu-link">
+                 <a href="../30book/search.html?category=stationery" class="main-menu-link">
                    لوازم التحریر
                  </a>
                </li>
                <li class="main-menu-item">
-                 <a href="../search.html?category=generalBook" class="main-menu-link">
+                 <a href="../30book/search.html?category=generalBook" class="main-menu-link">
                    کتاب عمومی
                  </a>
                </li>
                <li class="main-menu-item">
-                 <a href="../search.html?category=textBook" class="main-menu-link">
+                 <a href="../30book/search.html?category=textBook" class="main-menu-link">
                    کمک درسی
                  </a>
                </li>
                <li class="main-menu-item">
-                 <a href="../search.html?category=foreignBook" class="main-menu-link">
+                 <a href="../30book/search.html?category=foreignBook" class="main-menu-link">
                    زبان خارجی
                  </a>
                </li>
                <li class="main-menu-item">
-                 <a href="../search.html?category=childrenBook" class="main-menu-link">
+                 <a href="../30book/search.html?category=childrenBook" class="main-menu-link">
                    کودک و نوجوان
                  </a>
                </li>
                <li class="main-menu-item">
-                 <a href="../search.html?category=culturalGoods" class="main-menu-link">
+                 <a href="../30book/search.html?category=culturalGoods" class="main-menu-link">
                    کالای فرهنگی
                  </a>
                </li>
